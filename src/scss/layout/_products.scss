@@ -1,0 +1,38 @@
+.container__products{
+    position: relative;
+}
+.products__title{
+    margin-bottom: 22px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: calc(27/25);
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #E25E5E;
+}
+
+@media screen and (min-width: 1200px) {
+    .container__products {
+            position: relative;
+        }
+    .products__title {
+            margin-bottom: 22px;
+            font-size: 64px;
+            line-height: calc(68/64);
+        }
+    .products__img{
+        position: absolute;
+        top: -185px;
+        right: -55px;
+        width: 180px;
+        height: 180px;
+        background-image: url('../../img/Ketchup-Tomato3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}

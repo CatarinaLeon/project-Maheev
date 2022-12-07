@@ -1,0 +1,327 @@
+.container__hero{
+    position: relative;
+}
+.hero__title{
+    max-width: 272px;
+    margin: 0 auto 15px auto;
+    font-weight: 550;
+    font-size: 39px;
+    line-height: calc(41/39);
+    letter-spacing: -0.095em;
+    text-align: center;
+    color: #312A2A;
+
+}
+.hero__title span{
+color: var(--accent-color);
+}
+.hero__text{
+    max-width: 300px;
+    margin: 0 auto 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: calc(23/17);
+    letter-spacing: -0.045em;
+    text-align: center;
+    color: #000000;
+}
+.hero__btn{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+
+.hero__time{
+    position: relative;
+    max-width: 290px;
+    height: 160px;
+    padding: 20px 15px 13px;
+    margin: 0 auto 30px;
+    background: var(--accent-color);
+    
+    border-radius: 11px;
+}
+.hero__time-title{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(21/20);
+    
+    letter-spacing: -0.03em;
+    text-transform: uppercase; 
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero__time-list{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.hero__time-list-item {
+    position: relative;
+    color: #000;
+    font-family: 'Bebas';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43/40);
+    &:not(:last-child) {
+            &::after{
+                content: '';
+                position: absolute;
+                top: 23px;
+                right: -10px;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: #EFEFEF;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                top: 35px;
+                right: -10px;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: #EFEFEF;
+            
+        }
+        }
+}
+.countdown-time {
+    margin-bottom: 5px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    padding: 11px 8px 11px 8px;
+    
+    
+}
+.countdown-text{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(19/14);
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFFFFF;
+            
+}
+.hero__img{
+    position: relative;
+    width: 218px;
+    height: 258px;
+    margin: 0 auto;
+    background-image:
+    url('../../img/hero-Maheev.png'), 
+    url('../../img/clipart-red-tomato-2.png'), 
+    url('../../img/clipart-leaf-green-3.png'),
+    url('../../img/clipart-leaf-green-3.png');
+    background-repeat: no-repeat;
+    background-position: right, 155px 80px, 20px 50px, 160px 175px;
+    background-size:contain, 30px, 50px, 70px;
+    &-leaf{
+        position: absolute;
+        top: 75px;
+        right: -35px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../../img/clipart-leaf-green-4.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    &-tomato{
+        position: absolute;
+        bottom: -15px;
+        left: 55px;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        background-image: url('../../img/clipart-red-tomato-1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+.hero__time-img{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    bottom: -16px;
+    left: 0px;
+    background-image: url('../../img/clipart-leaf-green-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.hero__description{
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px 14px;
+    background-color: #E25E5E;
+    border-radius: 27px;
+}
+.description-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    text-align: center;
+    
+    color: #FFFFFF;
+    &:not(:last-child){
+    margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero__title {
+            max-width: 580px;
+            height: 180px;
+            margin: 0 0 35px 0;
+            font-size: 83px;
+            line-height: calc(79/83);
+            letter-spacing: -0.095em;
+            text-align: left;
+        }
+    
+        .hero__text {
+            max-width: 710px;
+            margin: 0 0 40px 0;
+            font-size: 24px;
+            line-height: calc(33/24);
+            text-align: left;
+        }
+        .hero__btn {
+            width: 281px;
+            display: inline-block;
+            margin-left: 0;
+
+                }
+        .hero__btn:not(:last-child) {
+            margin-right: 11px;
+            margin-bottom: 40px;
+        }
+    
+        .hero__time {
+            max-width: 493px;
+            height: 262px;
+            padding: 30px 40px 30px;
+            margin: 0 0 50px 0;
+        }
+    
+        .hero__time-title {
+            margin-bottom: 20px;
+            font-size: 32px;
+            line-height: calc(34/32);
+        }
+        .hero__time-list {
+            gap: 38px;
+        }
+    
+        .hero__time-list-item {
+            font-size: 60px;
+            line-height: calc(64/60);
+            letter-spacing: -0.03em;
+            border-radius: 13px;
+            &:not(:last-child) {
+                    &::after {
+                        top: 35px;
+                        right: -24px;
+                        width: 8px;
+                        height: 8px;
+                    }
+            
+                    &::before {
+                        top: 53px;
+                        right: -24px;
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+        }
+    
+        .countdown-time {
+            margin-bottom: 11px;
+            padding: 13px 12px 13px 12px;
+            text-transform: uppercase;
+        }
+    
+        .countdown-text {
+            font-size: 18px;
+            line-height: calc(25/18);;
+        }
+        .hero__time-img{
+            width: 60px;
+            height: 70px;
+            bottom: -25px;
+            left: -5px;
+        }
+
+        .hero__img {
+            width: 560px;
+            height: 688px;
+            position: absolute;
+            top: 36px;
+            right: 15px;
+            background-repeat: no-repeat;
+            background-position: right, 380px 200px, 55px 85px, 450px 510px;
+            background-size: contain, 110px, 110px, 130px;
+        }
+        .hero__description {
+            max-width: 100%;
+            margin: 0;
+            padding: 80px 123px 50px 123px;
+            background-color: #E25E5E;
+            border-radius: 27px;
+        }
+    
+        .description-text {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: calc(34/24);
+            text-align: center;
+    
+            color: #FFFFFF;
+    
+            &:not(:last-child) {
+                padding-bottom: 25px;
+            }
+        }
+    
+        .text {
+            max-width: 584px;
+            margin: 0 auto;
+        }
+        .hero__description-img{
+            position: absolute;
+            top: 80px;
+            left: -55px;
+            width: 180px;
+            height: 180px;
+            background-image: url('../../img/Ketchup-Tomato1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .hero__img{
+            &-leaf{
+            width: 100px;
+            height: 100px;
+            top: 220px;
+            right: -60px;
+        }
+            &-tomato {
+                width: 140px;
+                height: 140px;
+                bottom: -35px;
+                left: 55px;
+                z-index: 2;
+        }
+    }
+}

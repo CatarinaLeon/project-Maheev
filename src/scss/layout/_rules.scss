@@ -1,0 +1,178 @@
+.rules__title{
+    margin-bottom: 25px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: calc(27/25);
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #E25E5E;
+}
+.rules__list{
+    margin-bottom: 40px;
+    &-item{
+        position: relative;
+        width: 288px;
+        padding: 25px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        box-shadow: 0px 18px 23px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+    &-number{
+        width: 59px;
+        height: 59px;
+        margin: 0 auto 20px auto;
+        border-radius: 50px;
+        border: 5px solid #E25E5E;
+        font-family: 'Bebas Neue Cyrillic';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: calc(54/50);
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #E25E5E;
+    }
+    &-title{
+        margin-bottom: 15px;
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: calc(21/20);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+            
+        color: #E25E5E;
+    }
+    &-text{
+        font-family: 'Nunito';
+        font-size: 16px;
+        line-height: calc(17/16);
+
+        text-align: center;
+        letter-spacing: -0.03em;
+
+        color: #000000;
+    }
+}
+.rules__container-btn{
+    width: 250px;
+    margin: 0 auto;
+}
+.rules__btn{
+    width: 250px;
+}
+.rules__btn:not(:last-child){
+    margin-bottom: 15px;
+}
+.rules-img1{
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    width: 90px;
+    height: 110px;
+    background-image: url('../../img/Ketchup-Tomato2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    }
+.rules-img2 {
+    position: absolute;
+    top: -20px;
+    left: 250px;
+    width: 90px;
+    height: 110px;
+    background-image: url('../../img/Ketchup-Tomato4.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+.rules-img3 {
+    position: absolute;
+    bottom: 103px;
+    left: -5px;
+    width: 90px;
+    height: 110px;
+    background-image: url('../../img/Ketchup-Tomato2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+@media screen and (min-width: 1200px) {
+    .rules__title {
+        margin-bottom: 36px;
+        font-size: 64px;
+        line-height: calc(68/64);
+    }
+    
+    .rules__list {
+        display: flex;
+        margin-bottom: 40px;
+        gap: 20px;
+    
+            &-item {
+                width: 377px;
+                padding: 25px;
+                margin-bottom: 0;
+                &:not(:last-child) {
+                    margin-right: 0px;
+                    margin-bottom: 0;
+                }
+            }
+    
+            &-number {
+                width: 72px;
+                height: 72px;
+                margin: 0 auto 32px auto;
+                font-size: 60px;
+                line-height: calc(64/60);
+            }
+    
+            &-title {
+                margin-bottom: 22px;
+                font-size: 30px;
+                line-height: calc(32/30);
+            }
+    
+            &-text {
+                font-size: 20px;
+                line-height: calc(21/20);
+            }
+        }
+    
+        .rules__container-btn {
+            width: 720px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .rules__btn{
+            width: 340px;
+        }
+        .rules__btn:not(:last-child) {
+            margin-right: 30px;
+            margin-bottom: 0;
+        }
+        .rules-img1{
+            background-image: none;
+        }
+        .rules-img2{
+            background-image: none;
+        }
+        .rules-img3{
+            bottom: 175px;
+            left: 305px;
+            width: 170px;
+            height: 170px;
+        }
+}
