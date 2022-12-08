@@ -2,6 +2,7 @@
   "name": "project-maheev",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://catarinaleon.github.io/project-Maheev/",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
