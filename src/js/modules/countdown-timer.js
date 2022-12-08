@@ -1,3 +1,25 @@
+// import $ from 'jquery'
+// import 'flipclock'
+
+// export function cuontdownTimer() {
+//   // set time
+// clock.setTime(220823);
+// // countdown mode
+// clock.setCountdown(true);
+// // start the clock
+//   clock.start();
+  
+//   $('.clock').FlipClock({
+//     clockFace: 'DailyCounter',
+//     autoStart: false,
+//     callbacks: {
+//       stop: function () {
+//         $('.message').html('The clock has stopped!')
+//       }
+//     }
+//   });
+// }
+
 
 // // Установите дату, до которой мы ведем обратный отсчет
 // var countDownDate = new Date("July 15, 2023 04:00:00").getTime();

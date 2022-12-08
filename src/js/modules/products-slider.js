@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import 'slick-carousel';
 
+export function slickSlider(){
 $('.products__slider').slick({
 	arrows:true,
     dots: true,
@@ -66,26 +67,4 @@ $('.products__slider').slick({
 	// vertical: true,
 	// verticalSwiping: true,
 })
-
-// $('.products__slider').slick({
-// 		arrows:true,
-// 		
-// 		slidesToShow:3,
-// 		autoplay:true,
-// 		speed:1000,
-// 		autoplaySpeed:800,
-// 		responsive:[
-// 			{
-// 				breakpoint: 768,
-// 				settings: {
-// 					slidesToShow:2
-// 				}
-// 			},
-// 			{
-// 				breakpoint: 550,
-// 				settings: {
-// 					slidesToShow:1
-// 				}
-// 			}
-// 		]
-// 	});
+}

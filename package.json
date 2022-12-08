@@ -46,6 +46,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "flipclock": "^0.10.8",
     "jquery": "^3.6.1",
     "slick-carousel": "^1.8.1"
   }

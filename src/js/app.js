@@ -10,5 +10,5 @@ import * as flsLoadMore from "./modules/recipes-load-more.js";
 flsFunctions.isWebp();
 flsMenu.mobMenu()
 flsTimer.cuontdownTimer()
-flsSlider()
+flsSlider.slickSlider()
 flsLoadMore.recipesLoadMore()
