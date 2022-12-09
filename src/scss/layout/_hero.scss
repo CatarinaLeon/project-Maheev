@@ -116,13 +116,18 @@ gap: 15px;
     height: 258px;
     margin: 0 auto;
     background-image:
-    url('../../img/hero-Maheev.png'), 
+    url('../../img/hero/hero_mob_1x.png'), 
     url('../../img/clipart-red-tomato-2.png'), 
     url('../../img/clipart-leaf-green-3.png'),
     url('../../img/clipart-leaf-green-3.png');
     background-repeat: no-repeat;
     background-position: right, 155px 80px, 20px 50px, 160px 175px;
     background-size:contain, 30px, 50px, 70px;
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+                background-image: url(../../img/hero/hero_mob_2x.png);
+            }
     &-leaf{
         position: absolute;
         top: 75px;
@@ -177,7 +182,9 @@ gap: 15px;
     margin-bottom: 30px;
     }
 }
-
+.description-text span{
+    font-weight: 700;
+}
 @media screen and (min-width: 1200px) {
     .hero__title {
             max-width: 580px;
@@ -309,6 +316,12 @@ gap: 15px;
             background-size: contain;
         }
         .hero__img{
+            background-image: url(../../img/hero/hero_desktop_1x.png);
+            @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution: 192dpi),
+                screen and (min-resolution: 2dppx) {
+                    background-image: url(../../img/hero/hero_desktop_2x.png);
+                }
             &-leaf{
             width: 100px;
             height: 100px;
