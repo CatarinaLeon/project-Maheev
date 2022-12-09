@@ -51,8 +51,9 @@
     }
     &-img1{
         position: absolute;
-        left: 50px;
-        top: -78px;
+        left: 50%;
+        top: -25%;
+        transform: translate(-50%, 0%);
         width: 140px;
         height: 235px;
         background-image: url('../../img/number-1.png');
@@ -62,8 +63,9 @@
     }
     &-img2{
         position: absolute;
-        left: 25%;
-        top: -70px;
+        left: 50%;
+        top: -28%;
+        transform: translate(-50%, 0%);
         width: 119px;
         height: 145px;
         background-image: url('../../img/number-2.png');
@@ -73,8 +75,9 @@
     }
     &-img3{
         position: absolute;
-        left: 24%;
-        top: -47px;
+        left: 50%;
+        top: -19%;
+        transform: translate(-50%, 0%);
         width: 153px;
         height: 114px;
         background-image: url('../../img/number-3.png');
@@ -183,20 +186,17 @@ color: var(--second-text-color);
             }
 
             &-img1{
-                top: -147px;
-                left: 29%;
+                top: -44%;
                 width: 157px;
                 height: 267px;
                 }
             &-img2{
-                top: -130px;
-                left: 25%;
+                top: -43%;
                 width: 195px;
                 height: 215px;
                 }
             &-img3{
-                top: -135px;
-                left: 25%;
+                top: -54%;
                 width: 242px;
                 height: 178px;
                 }
