@@ -1,10 +1,8 @@
 .btn {
   padding: 15px 30px;
-  font-family: 'Nunito';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 22px calc(22/16);
+  line-height: calc(22/16);
   
   border-radius: 12px;
   border: 1px solid var(--accent-color);
@@ -12,27 +10,27 @@
   transition-duration: 250ms;
   &:hover,
   &:focus {
-    box-shadow: 1px 2px 0px #A33B3B;
+    box-shadow: 1px 2px 0px var(--box-shadow-btn);
     @extend %transition;
   }
 }
 
 .btn-light {
   color: var(--accent-color);
-  background-color: #FFFFFF;
+  background-color: var(--second-text-color);
   &:hover,
   &:focus {
       background-color: var(--accent-color);
-      color: #FFFFFF;
+      color: var(--second-text-color);
     }
 }
 
 .btn-dark {
-  color: #ffffff;
+  color: var(--second-text-color);
   background-color: var(--accent-color);
   &:hover,
   &:focus {
-      background-color: white;
+      background-color: var(--second-text-color);
       color: var(--accent-color);
     }
 }

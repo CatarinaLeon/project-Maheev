@@ -9,7 +9,7 @@
     line-height: calc(41/39);
     letter-spacing: -0.095em;
     text-align: center;
-    color: #312A2A;
+    color: var(--text-color-hero);
 
 }
 .hero__title span{
@@ -23,13 +23,13 @@ color: var(--accent-color);
     line-height: calc(23/17);
     letter-spacing: -0.045em;
     text-align: center;
-    color: #000000;
+    color: var(--main-text-color);
 }
 .hero__btn{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 250px;
+    min-width: 250px;
     &:not(:last-child){
         margin-bottom: 15px;
     }
@@ -54,7 +54,7 @@ color: var(--accent-color);
     letter-spacing: -0.03em;
     text-transform: uppercase; 
     text-align: center;
-    color: #FFFFFF;
+    color: var(--second-text-color);
 }
 .hero__time-list{
 display: flex;
@@ -64,7 +64,7 @@ gap: 15px;
 }
 .hero__time-list-item {
     position: relative;
-    color: #000;
+    color: var(--main-text-color);
     font-family: 'Bebas';
     font-weight: 700;
     font-size: 40px;
@@ -96,7 +96,7 @@ gap: 15px;
 .countdown-time {
     margin-bottom: 5px;
     border-radius: 7px;
-    background: #FFFFFF;
+    background: var(--second-text-color);
     padding: 11px 8px 11px 8px;
     
     
@@ -108,7 +108,7 @@ gap: 15px;
     line-height: calc(19/14);
     letter-spacing: -0.03em;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--second-text-color);
             
 }
 .hero__img{
@@ -164,7 +164,7 @@ gap: 15px;
     max-width: 300px;
     margin: 0 auto;
     padding: 30px 14px;
-    background-color: #E25E5E;
+    background-color: var(--accent-color);
     border-radius: 27px;
 }
 .description-text{
@@ -173,7 +173,7 @@ gap: 15px;
     line-height: calc(18/14);
     text-align: center;
     
-    color: #FFFFFF;
+    color: var(--second-text-color);
     &:not(:last-child){
     margin-bottom: 30px;
     }
@@ -277,7 +277,7 @@ gap: 15px;
             max-width: 100%;
             margin: 0;
             padding: 80px 123px 50px 123px;
-            background-color: #E25E5E;
+            background-color: var(--accent-color);
             border-radius: 27px;
         }
     
@@ -287,7 +287,7 @@ gap: 15px;
             line-height: calc(34/24);
             text-align: center;
     
-            color: #FFFFFF;
+            color: var(--second-text-color);
     
             &:not(:last-child) {
                 padding-bottom: 25px;
