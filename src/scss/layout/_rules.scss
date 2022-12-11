@@ -71,33 +71,36 @@
 }
 .rules-img1{
     position: absolute;
-    top: -20px;
-    left: -5px;
-    width: 90px;
-    height: 110px;
-    background-image: url('../../img/Ketchup-Tomato2.png');
+    top: -10px;
+    left: 10px;
+    width: 47px;
+    height: 86px;
+    transform: rotate(-17.65deg);
+    background-image: url('../../img/products/ketchup-300-1.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
     }
 .rules-img2 {
     position: absolute;
-    top: -20px;
-    left: 250px;
-    width: 90px;
-    height: 110px;
-    background-image: url('../../img/Ketchup-Tomato4.png');
+    top: -8px;
+    right: 15px;
+    width: 47px;
+    height: 85px;
+    transform: rotate(11.96deg);
+    background-image: url('../../img/products/ketchup-300-4.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
 }
 .rules-img3 {
     position: absolute;
-    bottom: 103px;
-    left: -5px;
-    width: 90px;
-    height: 110px;
-    background-image: url('../../img/Ketchup-Tomato2.png');
+    top: -9px;
+    left: 9px;
+    width: 47px;
+    height: 85px;
+    transform: rotate(-17.65deg);
+    background-image: url('../../img/products/ketchup-300-3.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -164,9 +167,10 @@
         background-image: none;
     }
     .rules-img3{
-        bottom: 175px;
-        left: 305px;
-        width: 170px;
-        height: 170px;
+        top: -48px;
+        left: 343px;
+        transform: rotate(-30.87deg);
+        width: 78px;
+        height: 144px;
     }
 }
