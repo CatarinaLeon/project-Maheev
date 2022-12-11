@@ -13,9 +13,11 @@ export function mobMenu() {
 
     function toggleMenu() {
         menuRefs.menuBackdrop.classList.toggle("is-hidden");
+        document.body.classList.add('no-scroll');
     }
     
     function closeMenu() {
         menuRefs.menuBackdrop.classList.add("is-hidden");
+        document.body.classList.remove('no-scroll');
     };
 };
