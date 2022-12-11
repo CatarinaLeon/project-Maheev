@@ -11,4 +11,5 @@ flsFunctions.isWebp();
 flsMenu.mobMenu()
 flsTimer.cuontdownTimer()
 flsSlider.slickSlider()
-flsLoadMore.recipesLoadMore()
+flsLoadMore.renderRecipes()
+flsLoadMore.buttonLoadMore()
