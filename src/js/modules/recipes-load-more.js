@@ -6,7 +6,7 @@ const galleryContainer = document.querySelector('.recipes__list');
 
 function renderImages() {
     const markup = galleryRecipes.map(
-        ({ img_Mob_1x, img_Mob_2x, img_Desk_1x, img_Desk_2x, recipesImg, description }) =>
+        ({ img_Mob_1x, img_Mob_2x, img_Desk_1x, img_Desk_2x, recipesImg, description, description_Alt }) =>
             `<li class="recipes__list-item">
                 <picture>
                     <source srcset="
@@ -17,7 +17,7 @@ function renderImages() {
                     ${img_Mob_1x} 1x,
                     ${img_Mob_2x} 2x
                     " media="(min-width: 480px)" />
-                    <img class="recipes__list-img" src=${recipesImg} alt="Карамельная коврижка"
+                    <img class="recipes__list-img" src=${recipesImg} alt='${description_Alt}'
                         width="140" height="140">
                 </picture>
                 <p class="recipes__list-text">${description}</p>
