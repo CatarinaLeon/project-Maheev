@@ -7,7 +7,7 @@ const menuRefs = {
 
 export function modalRules() {
     menuRefs.openModalBtn.addEventListener("click", toggleModal);
-    menuRefs.closeModalBtn.addEventListener("click", toggleModal);
+    menuRefs.closeModalBtn.addEventListener("click", closeModal);
     menuRefs.modalBackdrop.addEventListener("click", closeModal);
     menuRefs.modalBox.addEventListener("click", e => e.stopPropagation());
 

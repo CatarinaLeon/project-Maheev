@@ -52,6 +52,11 @@
     margin: 0 auto;
     color: var(--accent-color);
     margin-top: 30px;
+    &:hover,
+    &:focus{
+        background-color: #fff;
+        color: var(--accent-color);
+    }
 }
 
 @media screen and (min-width: 1200px) {

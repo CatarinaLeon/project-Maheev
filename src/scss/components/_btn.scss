@@ -4,34 +4,18 @@
   font-weight: 700;
   font-size: 16px;
   line-height: calc(22/16);
-  
+  color: var(--accent-color);
+  background-color: var(--second-text-color);
+  box-shadow: inset 0px 0px 5px var(--accent-color);
   border-radius: 12px;
   border: 1px solid var(--accent-color);
   cursor: pointer;
-  transition-duration: 250ms;
+  transition-duration: 700ms;
   &:hover,
   &:focus {
-    box-shadow: 1px 2px 0px var(--box-shadow-btn);
-    @extend %transition;
+    background-color: var(--accent-color);
+    color: var(--second-text-color);
+    box-shadow: 0px 0px 3px var(--box-shadow-btn);
+    transition-duration: 700ms;
   }
-}
-
-.btn-light {
-  color: var(--accent-color);
-  background-color: var(--second-text-color);
-  &:hover,
-  &:focus {
-      background-color: var(--accent-color);
-      color: var(--second-text-color);
-    }
-}
-
-.btn-dark {
-  color: var(--second-text-color);
-  background-color: var(--accent-color);
-  &:hover,
-  &:focus {
-      background-color: var(--second-text-color);
-      color: var(--accent-color);
-    }
 }
