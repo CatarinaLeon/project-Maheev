@@ -3,7 +3,7 @@ import 'jquery-countdown';
 
 export function cuontdownTimer(){
   $('#getting-started').countdown(
-    '2024/01/01', function (event) {
+    '2025/01/01', function (event) {
       $(this).html(event.strftime(
         `<ul class="hero__time-list">
           <li class="hero__time-list-item">
