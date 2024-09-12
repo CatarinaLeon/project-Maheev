@@ -8,15 +8,15 @@ export function cuontdownTimer(){
         `<ul class="hero__time-list">
           <li class="hero__time-list-item">
             <p class="countdown-time">%D</p>
-            <p class="countdown-text">Дней</p>
+            <p class="countdown-text">Днів</p>
           </li>
           <li class="hero__time-list-item">
             <p class="countdown-time">%H</p>
-            <p class="countdown-text">Часов</p>
+            <p class="countdown-text">Годин</p>
           </li>
           <li class="hero__time-list-item">
             <p class="countdown-time">%M</p>
-            <p class="countdown-text">Минут</p>
+            <p class="countdown-text">Хвилин</p>
           </li>
           <li class="hero__time-list-item">
             <p class="countdown-time">%S</p>
