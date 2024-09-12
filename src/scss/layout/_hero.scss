@@ -7,7 +7,8 @@
     font-weight: 550;
     font-size: 39px;
     line-height: calc(41/39);
-    letter-spacing: -0.095em;
+    letter-spacing: -0.05em;
+    word-spacing: -0.15em;
     text-align: center;
     color: var(--text-color-hero);
 
@@ -188,12 +189,11 @@ gap: 15px;
 
 @media screen and (min-width: 1200px) {
     .hero__title {
-            max-width: 580px;
+            max-width: 590px;
             height: 180px;
             margin: 0 0 35px 0;
             font-size: 83px;
             line-height: calc(79/83);
-            letter-spacing: -0.095em;
             text-align: left;
         }
     

@@ -53,7 +53,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_1_Desk_1x,
     img_Desk_2x: img_1_Desk_2x,
     recipesImg: recipesImg_1,
-    description: 'Карамельний пряник з джемом «Махєєв» «шматочки літа»',
+    description: 'Карамельний пряник з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Карамельний пряник з джемом',
     },
     {
@@ -62,7 +62,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_2_Desk_1x,
     img_Desk_2x: img_2_Desk_2x,
     recipesImg: recipesImg_2,
-    description: 'Морквяний кекс-суфле з джемом «Махєєв» «шматочки літа»',
+    description: 'Морквяний кекс-суфле з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Морквяний кекс-суфле з джемом',
     },
     {
@@ -71,7 +71,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_3_Desk_1x,
     img_Desk_2x: img_3_Desk_2x,
     recipesImg: recipesImg_3,
-    description: 'Малинова ніжність з джемом «Махєєв» «шматочки літа»',
+    description: 'Малинова ніжність з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Малинова ніжність з джемом',
     },
     {
@@ -80,7 +80,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_4_Desk_1x,
     img_Desk_2x: img_4_Desk_2x,
     recipesImg: recipesImg_4,
-    description: 'Десерт без випічки зі сметаною та полуничним джемом «Махєєв» «шматочки літа»',
+    description: 'Десерт без випічки зі сметаною та полуничним джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Десерт зі сметаною та полуничним джемом',
     },
     {
@@ -89,7 +89,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_5_Desk_1x,
     img_Desk_2x: img_5_Desk_2x,
     recipesImg: recipesImg_5,
-    description: 'Солодкий сендвіч з джемом «Махєєв» «шматочки літа»',
+    description: 'Солодкий сендвіч з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Солодкий сендвіч з джемом',
     },
     {
@@ -98,7 +98,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_6_Desk_1x,
     img_Desk_2x: img_6_Desk_2x,
     recipesImg: recipesImg_6,
-    description: 'Рогалики з дитинства з джемом «Махєєв» «шматочки літа»',
+    description: 'Рогалики з дитинства з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Рогалики з джемом',
     },
     {
@@ -107,7 +107,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_7_Desk_1x,
     img_Desk_2x: img_7_Desk_2x,
     recipesImg: recipesImg_7,
-    description: 'Гречана галета з джемом «Махєєв» «шматочки літа»',
+    description: 'Гречана галета з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Гречана галета з джемом',
     },
     {
@@ -116,7 +116,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_8_Desk_1x,
     img_Desk_2x: img_8_Desk_2x,
     recipesImg: recipesImg_8,
-    description: 'Сирне тістечко з вишнею і джемом «Махєєв» «шматочки літа»',
+    description: 'Сирне тістечко з вишнею і джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Сирне тістечко з вишнею',
     },
     {
@@ -125,7 +125,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_1_Desk_1x,
     img_Desk_2x: img_1_Desk_2x,
     recipesImg: recipesImg_1,
-    description: 'Карамельний пряник з джемом «Махєєв» «шматочки літа»',
+    description: 'Карамельний пряник з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Карамельний пряник з джемом',
     },
     {
@@ -134,7 +134,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_2_Desk_1x,
     img_Desk_2x: img_2_Desk_2x,
     recipesImg: recipesImg_2,
-    description: 'Морквяний кекс-суфле з джемом «Махєєв» «шматочки літа»',
+    description: 'Морквяний кекс-суфле з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Морквяний кекс-суфле з джемом',
     },
     {
@@ -143,7 +143,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_3_Desk_1x,
     img_Desk_2x: img_3_Desk_2x,
     recipesImg: recipesImg_3,
-    description: 'Малинова ніжність з джемом «Махєєв» «шматочки літа»',
+    description: 'Малинова ніжність з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Малинова ніжність з джемом',
     },
     {
@@ -152,7 +152,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_4_Desk_1x,
     img_Desk_2x: img_4_Desk_2x,
     recipesImg: recipesImg_4,
-    description: 'Десерт без випічки зі сметаною та полуничним джемом «Махєєв» «шматочки літа»',
+    description: 'Десерт без випічки зі сметаною та полуничним джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Десерт зі сметаною та полуничним джемом',
     },
     {
@@ -161,7 +161,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_5_Desk_1x,
     img_Desk_2x: img_5_Desk_2x,
     recipesImg: recipesImg_5,
-    description: 'Солодкий сендвіч з джемом «Махєєв» «шматочки літа»',
+    description: 'Солодкий сендвіч з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Солодкий сендвіч з джемом',
     },
     {
@@ -170,7 +170,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_6_Desk_1x,
     img_Desk_2x: img_6_Desk_2x,
     recipesImg: recipesImg_6,
-    description: 'Рогалики з дитинства з джемом «Махєєв» «шматочки літа»',
+    description: 'Рогалики з дитинства з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Рогалики з джемом',
     },
     {
@@ -179,7 +179,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_7_Desk_1x,
     img_Desk_2x: img_7_Desk_2x,
     recipesImg: recipesImg_7,
-    description: 'Гречана галета з джемом «Махєєв» «шматочки літа»',
+    description: 'Гречана галета з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Гречана галета з джемом',
     },
     {
@@ -188,7 +188,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_8_Desk_1x,
     img_Desk_2x: img_8_Desk_2x,
     recipesImg: recipesImg_8,
-    description: 'Сирне тістечко з вишнею і джемом «Махєєв» «шматочки літа»',
+    description: 'Сирне тістечко з вишнею і джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Сирне тістечко з вишнею',
     },
     {
@@ -197,7 +197,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_1_Desk_1x,
     img_Desk_2x: img_1_Desk_2x,
     recipesImg: recipesImg_1,
-    description: 'Карамельний пряник з джемом «Махєєв» «шматочки літа»',
+    description: 'Карамельний пряник з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Карамельний пряник з джемом',
     },
     {
@@ -206,7 +206,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_2_Desk_1x,
     img_Desk_2x: img_2_Desk_2x,
     recipesImg: recipesImg_2,
-    description: 'Морквяний кекс-суфле з джемом «Махєєв» «шматочки літа»',
+    description: 'Морквяний кекс-суфле з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Морквяний кекс-суфле з джемом',
     },
     {
@@ -215,7 +215,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_3_Desk_1x,
     img_Desk_2x: img_3_Desk_2x,
     recipesImg: recipesImg_3,
-    description: 'Малинова ніжність з джемом «Махєєв» «шматочки літа»',
+    description: 'Малинова ніжність з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Малинова ніжність з джемом',
     },
     {
@@ -224,7 +224,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_4_Desk_1x,
     img_Desk_2x: img_4_Desk_2x,
     recipesImg: recipesImg_4,
-    description: 'Десерт без випічки зі сметаною та полуничним джемом «Махєєв» «шматочки літа»',
+    description: 'Десерт без випічки зі сметаною та полуничним джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Десерт зі сметаною та полуничним джемом',
     },
     {
@@ -233,7 +233,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_5_Desk_1x,
     img_Desk_2x: img_5_Desk_2x,
     recipesImg: recipesImg_5,
-    description: 'Солодкий сендвіч з джемом «Махєєв» «шматочки літа»',
+    description: 'Солодкий сендвіч з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Солодкий сендвіч з джемом',
     },
     {
@@ -242,7 +242,7 @@ export const galleryRecipes = [
     img_Desk_1x: img_6_Desk_1x,
     img_Desk_2x: img_6_Desk_2x,
     recipesImg: recipesImg_6,
-    description: 'Рогалики з дитинства з джемом «Махєєв» «шматочки літа»',
+    description: 'Рогалики з дитинства з джемом «Матвєєв» «шматочки літа»',
     description_Alt: 'Рогалики з джемом',
     },
     ]
